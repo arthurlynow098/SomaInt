@@ -4,21 +4,33 @@
 
 <p align="center">Leitura de dois números inteiros e exibição da soma no console.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-C52E36?style=flat-square" alt="Java">
-  <img src="https://img.shields.io/badge/Console-24272E?style=flat-square" alt="Console">
-  <img src="https://img.shields.io/badge/L%C3%B3gica-24272E?style=flat-square" alt="Lógica">
-</p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Java · Console · Lógica" width="72%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
 ---
 
-## Visão geral
+<a id="explore-o-projeto"></a>
+
+![Explore o projeto](assets/docs/section-01.svg)
+
+![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
+
+| Área | O que você encontra | Acesso direto |
+|---|---|---|
+| **Entrada** | Lê dois números inteiros com Scanner. | [Abrir entrada →](SomaInt.java) |
+| **Soma** | Calcula A + B. | [Abrir soma →](SomaInt.java#L16) |
+| **Resultado** | Escreve a soma no console. | [Abrir resultado →](SomaInt.java#L19) |
+
+<a id="visão-geral"></a>
+
+![Visão geral](assets/docs/section-02.svg)
 
 **SomaInt** é um programa direto em **Java** que exercita os blocos essenciais de qualquer aplicação de console: importação da biblioteca padrão java.util.Scanner, leitura sequencial de inteiros a partir de System.in, armazenamento do resultado em variável local e escrita formatada na saída padrão (System.out.println).
 
-## Recursos
+<a id="recursos"></a>
+
+![Recursos](assets/docs/section-03.svg)
 
 | Recurso | Como funciona |
 |---|---|
@@ -44,14 +56,16 @@ flowchart LR
 ```text
 SomaInt/
 ├── assets/
-│   └── project-animal.png          Emblema do projeto
+│   └── banner-v2.png               Banner do projeto
 ├── SomaInt.java                    Código-fonte da classe Main
 └── README.md
 ```
 
 </details>
 
-## Como executar
+<a id="como-executar"></a>
+
+![Como executar](assets/docs/section-04.svg)
 
 1. Clone o repositório:
    ```bash
