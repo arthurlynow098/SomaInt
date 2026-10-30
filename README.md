@@ -1,43 +1,42 @@
 <p align="center">
-  <img src="assets/banner-v2.png" alt="SomaInt" width="100%">
+  <img src="assets/identity/banner.png" alt="SomaInt" width="100%">
 </p>
 
 <p align="center">Leitura de dois números inteiros e exibição da soma no console.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="Java · Console · Lógica" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <a id="explore-o-projeto"></a>
 
-![Explore o projeto](assets/docs/section-01.svg)
+## Por onde começar
 
-![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-<table width="100%">
-<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
-<tr><td><strong>Entrada</strong></td><td>Lê dois números inteiros com Scanner.</td><td><a href="SomaInt.java">Abrir entrada →</a></td></tr>
-<tr><td><strong>Soma</strong></td><td>Calcula A + B.</td><td><a href="SomaInt.java#L16">Abrir soma →</a></td></tr>
-<tr><td><strong>Resultado</strong></td><td>Escreve a soma no console.</td><td><a href="SomaInt.java#L19">Abrir resultado →</a></td></tr>
-</table>
+- **[Entrada](SomaInt.java)** — Lê dois números inteiros com Scanner.
+- **[Soma](SomaInt.java#L16)** — Calcula A + B.
+- **[Resultado](SomaInt.java#L19)** — Escreve a soma no console.
+
 
 <a id="visão-geral"></a>
 
-![Visão geral](assets/docs/section-02.svg)
+## Visão geral
 
 **SomaInt** é um programa direto em **Java** que exercita os blocos essenciais de qualquer aplicação de console: importação da biblioteca padrão java.util.Scanner, leitura sequencial de inteiros a partir de System.in, armazenamento do resultado em variável local e escrita formatada na saída padrão (System.out.println).
 
 <a id="recursos"></a>
 
-![Recursos](assets/docs/section-03.svg)
+## Recursos
 
-| Recurso | Como funciona |
-|---|---|
-| Leitura interativa | Captura dois valores inteiros (A e B) informados pelo usuário no terminal. |
-| Processamento direto | Calcula SOMA = A + B em tipo primitivo int. |
-| Saída legível | Imprime SOMA É DE: <resultado> e encerra o leitor Scanner com segurança. |
+**Leitura interativa**<br>
+Captura dois valores inteiros (A e B) informados pelo usuário no terminal.
+
+**Processamento direto**<br>
+Calcula SOMA = A + B em tipo primitivo int.
+
+**Saída legível**<br>
+Imprime SOMA É DE: <resultado> e encerra o leitor Scanner com segurança.
 
 <details>
 <summary>Arquitetura</summary>
@@ -57,7 +56,7 @@ flowchart LR
 ```text
 SomaInt/
 ├── assets/
-│   └── banner-v2.png               Banner do projeto
+│   └── identity/banner.png               Banner do projeto
 ├── SomaInt.java                    Código-fonte da classe Main
 └── README.md
 ```
@@ -66,7 +65,7 @@ SomaInt/
 
 <a id="como-executar"></a>
 
-![Como executar](assets/docs/section-04.svg)
+## Como executar
 
 1. Clone o repositório:
    ```bash
@@ -81,7 +80,7 @@ SomaInt/
    ```
 3. Digite dois inteiros (ex.: 10 25) para visualizar SOMA É DE: 35.
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <p align="center">
   <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
