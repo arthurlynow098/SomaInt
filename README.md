@@ -4,7 +4,7 @@
 
 <p align="center">Leitura de dois números inteiros e exibição da soma no console.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="Java · Console · Lógica" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Java · Console · Lógica" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Entrada** | Lê dois números inteiros com Scanner. | [Abrir entrada →](SomaInt.java) |
-| **Soma** | Calcula A + B. | [Abrir soma →](SomaInt.java#L16) |
-| **Resultado** | Escreve a soma no console. | [Abrir resultado →](SomaInt.java#L19) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Entrada</strong></td><td>Lê dois números inteiros com Scanner.</td><td><a href="SomaInt.java">Abrir entrada →</a></td></tr>
+<tr><td><strong>Soma</strong></td><td>Calcula A + B.</td><td><a href="SomaInt.java#L16">Abrir soma →</a></td></tr>
+<tr><td><strong>Resultado</strong></td><td>Escreve a soma no console.</td><td><a href="SomaInt.java#L19">Abrir resultado →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
