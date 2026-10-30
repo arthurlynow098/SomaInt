@@ -1,22 +1,26 @@
 <p align="center">
-  <img src="assets/banner.png" alt="SomaInt — Java" width="100%">
+  <img src="assets/project-animal.png" alt="Emblema de SomaInt" width="144" height="144">
 </p>
+
+<h1 align="center">SomaInt</h1>
+
+<p align="center">Leitura de dois números inteiros e exibição da soma no console.</p>
 
 <p align="center">
-  Utilitário console em Java para captura de dois números inteiros via entrada padrão e exibição imediata da soma aritmética.
+  <img src="https://img.shields.io/badge/Java-C52E36?style=flat-square" alt="Java">
+  <img src="https://img.shields.io/badge/Console-24272E?style=flat-square" alt="Console">
+  <img src="https://img.shields.io/badge/L%C3%B3gica-24272E?style=flat-square" alt="Lógica">
 </p>
 
-<p align="center">
-  <img alt="Java" src="https://img.shields.io/badge/Java-Console_I%2FO-C52E36?style=for-the-badge&logo=openjdk&logoColor=white">
-  <img alt="Scanner" src="https://img.shields.io/badge/Input-java.util.Scanner-11120F?style=for-the-badge">
-  <img alt="Algoritmo" src="https://img.shields.io/badge/Opera%C3%A7%C3%A3o-A_%2B_B-18181B?style=for-the-badge">
-</p>
+<p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
-## Sobre o projeto
+---
+
+## Visão geral
 
 **SomaInt** é um programa direto em **Java** que exercita os blocos essenciais de qualquer aplicação de console: importação da biblioteca padrão java.util.Scanner, leitura sequencial de inteiros a partir de System.in, armazenamento do resultado em variável local e escrita formatada na saída padrão (System.out.println).
 
-## Principais recursos
+## Recursos
 
 | Recurso | Como funciona |
 |---|---|
@@ -24,48 +28,50 @@
 | Processamento direto | Calcula SOMA = A + B em tipo primitivo int. |
 | Saída legível | Imprime SOMA É DE: <resultado> e encerra o leitor Scanner com segurança. |
 
-## Tecnologias
+<details>
+<summary>Arquitetura</summary>
 
-<p>
-  <img alt="Java" src="https://img.shields.io/badge/Java-C52E36?style=flat-square&logo=openjdk&logoColor=white">
-  <img alt="CLI" src="https://img.shields.io/badge/Terminal-11120F?style=flat-square">
-</p>
-
-## Arquitetura
-
-`mermaid
+```mermaid
 flowchart LR
-    A[System.in · 2 Inteiros] --> B[Scanner.nextInt : A, B]
-    B --> C[Cálculo : SOMA = A + B]
-    C --> D[System.out · SOMA É DE: valor]
-`
+    A["System.in · 2 Inteiros"] --> B["Scanner.nextInt : A, B"]
+    B --> C["Cálculo : SOMA = A + B"]
+    C --> D["System.out · SOMA É DE: valor"]
+```
 
-## Estrutura do repositório
+</details>
 
-`	ext
+<details>
+<summary>Estrutura do repositório</summary>
+
+```text
 SomaInt/
 ├── assets/
-│   ├── banner.png                  Banner principal SomaInt
-│   └── project-animal.png          Símbolo do coelho
+│   └── project-animal.png          Emblema do projeto
 ├── SomaInt.java                    Código-fonte da classe Main
 └── README.md
-`
+```
 
-## Executando o código
+</details>
+
+## Como executar
 
 1. Clone o repositório:
-   `ash
+   ```bash
    git clone https://github.com/arthurlynow098/SomaInt.git
    cd SomaInt
-   `
+   ```
 2. Copie SomaInt.java para Main.java, compile e execute:
-   `ash
+   ```bash
    cp SomaInt.java Main.java
    javac Main.java
    java Main
-   `
+   ```
 3. Digite dois inteiros (ex.: 10 25) para visualizar SOMA É DE: 35.
 
 ---
 
-<p align="center"><sub>Estudo · construção · evolução</sub><br><a href="https://github.com/arthurlynow098">Perfil</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a> · <a href="https://www.linkedin.com/in/entsevarthur/">LinkedIn</a></p>
+<p align="center">
+  <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://arthurentsev.vercel.app/">Portfólio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/entsevarthur/">LinkedIn</a>
+</p>
